@@ -6,11 +6,15 @@
     "dev": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
+    "start": "astro preview --port 8080",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^4.16.16",
     "@astrojs/check": "^0.9.4",
     "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=16.x"
   }
 }
